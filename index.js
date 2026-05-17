@@ -64,6 +64,7 @@ module.exports = (app) => {
         });
       }
     );
+    app.setPluginStatus('Running');
   }
   function sendRequests(urls) {
     app.debug(`Sending HTTP requests to configured URLs: ${urls.join(', ')}`);
