@@ -1,0 +1,16 @@
+{
+  "name": "signalk-anchor-webhook",
+  "version": "1.0.0",
+  "description": "A simple plugin for SignalK to send a HTTP request when the anchor alarm is triggered.",
+  "main": "index.js",
+  "keywords": [
+    "signalk-node-server-plugin"
+  ],
+  "license": "MIT",
+  "author": "Lukas Leppich (lukas.leppich@gmail.com)",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@signalk/server-api": "^2.24.0"
+  }
+}
